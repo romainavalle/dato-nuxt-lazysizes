@@ -1,0 +1,16 @@
+{
+  "name": "dato-nuxt-lazysizes",
+  "version": "1.0.1",
+  "main": "lazysizes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "imgix-core-js": "^2.2.0",
+    "lazysizes": "^5.2.0-beta1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
