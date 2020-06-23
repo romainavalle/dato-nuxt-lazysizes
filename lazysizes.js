@@ -16,7 +16,10 @@ lazySizesDirective.install = function(Vue) {
         "data-srcset",
         client.buildSrcSet(
           el.dataset.src.replace("https://www.datocms-assets.com", ""),
-          params
+          params,
+          {
+          widthTolerance: 0.5
+        }
         )
       );
       el.classList.add("lazyload");
