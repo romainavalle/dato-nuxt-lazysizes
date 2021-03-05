@@ -1,5 +1,6 @@
 import ImgixClient from "imgix-core-js";
 import lazySizes from "lazysizes";
+import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 var lazySizesDirective = {};
 
